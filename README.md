@@ -1,9 +1,8 @@
-<p align="center">
-  <img src="docs/speedly-banner.gif" alt="SPEEDLY — Internet Speed Test and Network Analytics, with gently moving blue waves" width="100%" />
-</p>
-
 <h1 align="center">SPEEDLY</h1>
 <p align="center"><strong>Real-time Internet Speed Testing &amp; Network Performance Analytics</strong></p>
+<p align="center">
+  <img src="docs/speedly-animated-line.gif" alt="Smoothly moving blue accent line" width="78%" />
+</p>
 <p align="center">
   <img alt="React" src="https://img.shields.io/badge/React-20232A?style=flat-square&amp;logo=react&amp;logoColor=61DAFB" />
   <img alt="Vite" src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&amp;logo=vite&amp;logoColor=white" />
@@ -23,29 +22,6 @@ Unlike a single-number speed meter, SPEEDLY presents a broader view of connectio
 
 > **Important:** Browser-based network tests are estimates influenced by server conditions, network congestion, device performance, and browser limitations. SPEEDLY is not a certified diagnostic instrument.
 
-## Screenshots
-
-### Main dashboard — light mode
-![SPEEDLY light dashboard](docs/screenshots/speedly-dashboard-light.png)
-
-### Main dashboard — dark mode
-![SPEEDLY dark dashboard](docs/screenshots/speedly-dashboard-dark.png)
-
-<details>
-<summary><strong>More screenshots: analytics, quality, network details, and history</strong></summary>
-
-#### Connection details and live speed measurements
-![Connection analytics](docs/screenshots/speedly-connection-details.png)
-
-#### Internet quality and latency
-![Quality and latency](docs/screenshots/speedly-quality-analysis.png)
-
-#### Network information and speed trends
-![Network information](docs/screenshots/speedly-network-information.png)
-
-#### Saved test history
-![Test history](docs/screenshots/speedly-test-history.png)
-</details>
 
 ## Features
 
@@ -169,24 +145,17 @@ For production, run `npm run build` again and redeploy `dist/`.
 
 ## Project structure
 
-A typical Vite/React project contains the following entries; exact names may vary in your checkout:
+The precise source layout may vary by version. The following shows the README assets and typical Vite/React entry points:
 
 ```text
 speedly/
 ├── docs/
-│   ├── speedly-banner.svg
-│   └── screenshots/
-│       ├── speedly-dashboard-light.png
-│       ├── speedly-dashboard-dark.png
-│       ├── speedly-connection-details.png
-│       ├── speedly-quality-analysis.png
-│       ├── speedly-network-information.png
-│       └── speedly-test-history.png
-├── public/              # Static assets (if present)
-├── src/                 # React application source
+│   └── speedly-animated-line.gif
+├── public/             # Static and PWA assets (if present)
+├── src/                # React application source
 ├── index.html
 ├── package.json
-├── vite.config.*         # Vite config (if present)
+├── vite.config.*        # Vite configuration (if present)
 └── README.md
 ```
 
@@ -212,20 +181,17 @@ GitHub: [@SULAKSHAN-M](https://github.com/SULAKSHAN-M)
 
 <p align="center">
   Built to make network performance easier to understand.<br />
-  <strong>If SPEEDLY is useful, <a href="https://github.com/SULAKSHAN-M/speedly/stargazers">give the project a star</a>.</strong>
+  If SPEEDLY is useful, <a href="https://github.com/SULAKSHAN-M/speedly/stargazers"><strong>star this repository</strong></a>.
 </p>
 
+## ☕ Buy Me a Coffee
 
-## README banner and screenshot troubleshooting
+If you find **SPEEDLY** useful and would like to support its continued development, you can buy me a coffee.
 
-The animated banner is a **repository-hosted GIF** at `docs/speedly-banner.gif`. It uses subtle moving waves—not blinking text. A static alternative is provided at `docs/speedly-banner.png`, alongside the original vector `docs/speedly-banner.svg`.
+<p align="center">
+  <a href="https://buymeacoffee.com/YOUR_USERNAME">
+    <img src="https://img.shields.io/badge/Buy_Me_a_Coffee-Support_the_Project-FFDD00?style=for-the-badge&amp;logo=buymeacoffee&amp;logoColor=000000" alt="Buy Me a Coffee" />
+  </a>
+</p>
 
-If the banner or screenshots do not load on GitHub:
-
-1. Verify that `README.md` is in the repository root and the `docs/` folder is alongside it.
-2. Confirm that `docs/speedly-banner.gif` is committed to the **same branch** as the displayed README.
-3. Check that filename capitalization matches the README exactly.
-4. Open [`docs/speedly-banner.gif`](docs/speedly-banner.gif) directly to confirm the file is uploaded.
-5. If necessary, replace `docs/speedly-banner.gif` in the header with `docs/speedly-banner.png` for a static header.
-
-GitHub does not display ZIP archives as inline README images. Extract the package and commit the actual `docs/` directory.
+> **Before publishing:** Replace `YOUR_USERNAME` in the link above with your actual Buy Me a Coffee username. If you don't have an account yet, remove the link until you're ready to add one.
