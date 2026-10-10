@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/speedly-banner.svg" alt="SPEEDLY animated banner" width="100%" />
+  <img src="docs/speedly-banner.gif" alt="SPEEDLY — Internet Speed Test and Network Analytics, with gently moving blue waves" width="100%" />
 </p>
 
 <h1 align="center">SPEEDLY</h1>
@@ -26,25 +26,25 @@ Unlike a single-number speed meter, SPEEDLY presents a broader view of connectio
 ## Screenshots
 
 ### Main dashboard — light mode
-![SPEEDLY light dashboard](docs/screenshots/dashboard-light.png)
+![SPEEDLY light dashboard](docs/screenshots/speedly-dashboard-light.png)
 
 ### Main dashboard — dark mode
-![SPEEDLY dark dashboard](docs/screenshots/dashboard-dark.png)
+![SPEEDLY dark dashboard](docs/screenshots/speedly-dashboard-dark.png)
 
 <details>
 <summary><strong>More screenshots: analytics, quality, network details, and history</strong></summary>
 
 #### Connection details and live speed measurements
-![Connection analytics](docs/screenshots/connection-analytics.png)
+![Connection analytics](docs/screenshots/speedly-connection-details.png)
 
 #### Internet quality and latency
-![Quality and latency](docs/screenshots/quality-and-latency.png)
+![Quality and latency](docs/screenshots/speedly-quality-analysis.png)
 
 #### Network information and speed trends
-![Network information](docs/screenshots/network-information.png)
+![Network information](docs/screenshots/speedly-network-information.png)
 
 #### Saved test history
-![Test history](docs/screenshots/history.png)
+![Test history](docs/screenshots/speedly-test-history.png)
 </details>
 
 ## Features
@@ -176,6 +176,12 @@ speedly/
 ├── docs/
 │   ├── speedly-banner.svg
 │   └── screenshots/
+│       ├── speedly-dashboard-light.png
+│       ├── speedly-dashboard-dark.png
+│       ├── speedly-connection-details.png
+│       ├── speedly-quality-analysis.png
+│       ├── speedly-network-information.png
+│       └── speedly-test-history.png
 ├── public/              # Static assets (if present)
 ├── src/                 # React application source
 ├── index.html
@@ -208,3 +214,18 @@ GitHub: [@SULAKSHAN-M](https://github.com/SULAKSHAN-M)
   Built to make network performance easier to understand.<br />
   <strong>If SPEEDLY is useful, <a href="https://github.com/SULAKSHAN-M/speedly/stargazers">give the project a star</a>.</strong>
 </p>
+
+
+## README banner and screenshot troubleshooting
+
+The animated banner is a **repository-hosted GIF** at `docs/speedly-banner.gif`. It uses subtle moving waves—not blinking text. A static alternative is provided at `docs/speedly-banner.png`, alongside the original vector `docs/speedly-banner.svg`.
+
+If the banner or screenshots do not load on GitHub:
+
+1. Verify that `README.md` is in the repository root and the `docs/` folder is alongside it.
+2. Confirm that `docs/speedly-banner.gif` is committed to the **same branch** as the displayed README.
+3. Check that filename capitalization matches the README exactly.
+4. Open [`docs/speedly-banner.gif`](docs/speedly-banner.gif) directly to confirm the file is uploaded.
+5. If necessary, replace `docs/speedly-banner.gif` in the header with `docs/speedly-banner.png` for a static header.
+
+GitHub does not display ZIP archives as inline README images. Extract the package and commit the actual `docs/` directory.
