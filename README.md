@@ -1,4 +1,4 @@
-# Speedly v4.5 — Mbps & Interface Cleanup
+# Speedly — Mbps & Interface Cleanup
 
 Speedly is a Vite + React internet speed test powered by the Cloudflare speedtest library.
 
